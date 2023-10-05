@@ -23,6 +23,7 @@ int main() {
         while (a[start] == 1)
         {
             start++;
+            start--;
         }
         while(a[end]==1){
             end--;
